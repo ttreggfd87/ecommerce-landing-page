@@ -14,7 +14,15 @@ A high-conversion landing page meant for an e-commerce SaaS product. Built with 
 *   TailwindCSS
 *   Framer Motion
 
-## Setup
+## 🐳 Run with Docker
+
+```bash
+# Build and Run (Access at http://localhost:3000)
+docker build -t landing-page .
+docker run -p 3000:80 landing-page
+```
+
+## Setup (Local Node)
 
 1.  **Install Dependencies:**
     ```bash
